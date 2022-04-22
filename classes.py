@@ -1,9 +1,9 @@
 class Television:
-    MIN_CHANNEL = 0  # Minimum TV channel
-    MAX_CHANNEL = 3  # Maximum TV channel
+    MIN_CHANNEL: int = 0  # Minimum TV channel
+    MAX_CHANNEL: int = 3  # Maximum TV channel
 
-    MIN_VOLUME = 0  # Minimum TV volume
-    MAX_VOLUME = 2  # Maximum TV volume
+    MIN_VOLUME: int = 0  # Minimum TV volume
+    MAX_VOLUME: int = 2  # Maximum TV volume
 
     def __init__(self):
         """
